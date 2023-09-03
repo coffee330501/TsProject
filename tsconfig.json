@@ -2,8 +2,7 @@
   "version": "1.8.0",
   "compilerOptions": {
     "outDir": "build/compiled",
-    "lib": ["es6"],
-    "target": "es6",
+    "target": "es2017",
     "module": "commonjs",
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
@@ -12,8 +11,5 @@
     "noImplicitAny": true,
     "declaration": true
   },
-  "exclude": ["build", "node_modules"],
-  "scripts": {
-    "start": "ts-node-dev --respawn --transpileOnly src/index.ts"
-  }
+  "exclude": ["build", "node_modules"]
 }
